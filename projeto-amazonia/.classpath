@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="libs"/>
+	<classpathentry kind="lib" path="C:/Users/Patrícia/eclipse-workspace/women-can-code/projeto-amazonia/libs/dsn.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Patrícia/eclipse-workspace/women-can-code/projeto-amazonia/libs/gimap.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Patrícia/eclipse-workspace/women-can-code/projeto-amazonia/libs/imap.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Patrícia/eclipse-workspace/women-can-code/projeto-amazonia/libs/mail.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Patrícia/eclipse-workspace/women-can-code/projeto-amazonia/libs/mailapi.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Patrícia/eclipse-workspace/women-can-code/projeto-amazonia/libs/pop3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Patrícia/eclipse-workspace/women-can-code/projeto-amazonia/libs/smtp.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/5"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
