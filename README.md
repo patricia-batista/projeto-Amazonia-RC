@@ -52,7 +52,7 @@ Camadas adicionais:<br>
 Persistence – Utilizada para o acesso ao banco de dados; classes designadas a essa tarefa seriam denominadas como: “DAO” (Data Access Object) no próprio nome. Exemplo: CupomDAO.<br>
 Service – Para acesso à Web Services (internos ou externos). Exemplo: CorreioWebService.<br>
 Test – Realização de testes unitários com JUnit.</p>
-<h2 id="informações-adicionais"><strong>4. Informações adicionais</strong></h2>
+<h2 id="informações-adicionais"><strong>4. Solução</strong></h2>
 <p>Desenvolvimento com a tecnologia: Java 8 e IDE Eclipse 2019-03.</p>
 <p>Meus objetivos principais foram:</p>
 <ul>
@@ -61,7 +61,7 @@ Test – Realização de testes unitários com JUnit.</p>
 <li>Padronização e classificação adequada;</li>
 <li>Testes (separei 4 testes unitários que não consegui implementar da forma que gostaria, mas está funcional); as classes “TesteCarrinho” e “TesteCheckout” também podem ser utilizadas para teste.</li>
 </ul>
-<p>Mais ideias de estrutura para o projeto:</p>
+<p>Mais ideias de estruturação e organização para o projeto:</p>
 <ul>
 <li>Planejei separar também a parte do acesso ao banco de dados como: montagem e estruturação das variáveis e parâmetros para acesso em uma classe e a implementação do acesso em si (o ato de efetivamente acessar ao banco) em outra classe. Exemplo: CupomDAO (dados organizados) e CupomDAOImp (construção da persistência ao banco). Minha ideia sempre foi padronizar utilizações específicas em suas determinadas classes para que cada uma tivesse seu propósito bem definido. Mas como preferi apenas me focar no código do próprio Java, não implementei um banco. Assim o(s) avaliador(es) também teriam total visualização do meu planejamento em apenas um ponto focal, no código;</li>
 <li>Pensei na possibilidade de inserir o padrão de projeto “Strategy” (design patterns) para organizar, por exemplo, a classe “Imposto”, assim quanto mais genérico permitisse colocar uma classe (que possivelmente no futuro fosse escalonada), mais fácil de implementar novas funções, filtrá-las etc. Mas infelizmente não consegui inserir essa implementação em tempo hábil.</li>
